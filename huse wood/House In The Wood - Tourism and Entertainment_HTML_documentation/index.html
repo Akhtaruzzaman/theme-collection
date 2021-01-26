@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
+
+
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content=""/>
+  <title>Template Documentation</title>
+  <!--fonts-->
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <!-- Other scripts -->
+
+   </head>
+ <body>
+	
+	<header class="mainhead">
+		<div class="container clearfix">
+			<div class="ditailhead">
+				<span>updated: 01.09.2018</span>  <span>by: SVARGO</span>
+			</div>
+			<div class="header_mbbtn">
+				<a href="#menu" class="btn_trp easyscroll">Menu</a>
+			</div>
+		</div>
+	</header>
+	<div class="container contentpage clearfix">
+		<br><br>
+		<h1>House In The Wood - Tourism and Entertainment HTML Template</h1>
+		<br>
+		<p>
+			Thank you for purchasing my theme. If you have any questions, please feel free to email via my user page contact form here: <a href="https://themeforest.net/user/mx_reliable" target="_blank">mx_reliable on ThemeForest.</a>
+			<br><br>
+			Thanks so much!
+		</p>
+		<h3 id="menulist">Table of Contents</h3>
+		<div class="clearfix" id="menu">
+			<ul class="linksblock">
+				<li><a href="#htmls" class="easyscroll">HTML Structure</a></li>
+				<li><a href="#csslist" class="easyscroll">CSS Files and Structure</a></li>
+				<li><a href="#jsblock" class="easyscroll">JavaScript</a></li>
+				<li><a href="#block7" class="easyscroll">Sources and Credits</a></li>
+			</ul>	
+		</div>
+		
+		<h2 id="fileinlude">HTML File Include</h2>
+		
+		<ul>
+			<li>index.html</li>
+			<li>page.html</li>
+			<li>services-category.html</li>
+			<li>single-service.html</li>
+			<li>single-team.html</li>
+			<li>team-category.html</li>
+			<li>news-category.html</li>
+			<li>single-news.html</li>
+		</ul>
+
+		
+		<h2 id="htmls">HTML Structure - <a href="#menulist" class="easyscroll" style="font-size:14px;">back to menu</a></h2>
+		
+		<p>
+		This theme is a adaptive layout with bootstrap 4.1 grid. All of the information within the main content area is nested within a div or section with some (class) like "main_header". The general template structure is the same throughout the template.
+		</p>
+			<p><img src="images/screen_shot1.jpg" alt=""></p>
+			
+			
+		<h4>Menu Top</h4>
+		<p>Statick Header, only one class:</p>
+		<blockquote>
+			EXAMPLE - class="main_header"
+		</blockquote>
+		<p><img src="images/header1.jpg" alt="" style="max-width: 100%;"></p>
+		
+		<p>Float Header, add class (float_header), transparent background add class(transparen_bg_head)</p>
+		<blockquote>
+			EXAMPLE - class="main_header float_header transparen_bg_head"
+		</blockquote>
+		<p><img src="images/header2.jpg" alt="" style="max-width: 100%;"></p>
+		
+		<p>Fixed Header, change class float_header on (fixe_header)</p>
+		<blockquote>
+			EXAMPLE - class="main_header fixe_header transparen_bg_head"
+		</blockquote>
+		<p><img src="images/header3.jpg" alt="" style="max-width: 100%;"></p>
+		
+
+		<p>
+			If you want to change image in main slider.
+			You will need open style.css file and find class (.item_mainslide_1, or .item_mainslide_2)
+			and change image address on your
+			
+			<br><br>
+			<img src="images/screen_shot3.jpg" alt="">
+		</p>
+		<p>
+			second method
+If you would like to edit the background image, slider or others elements in one of these section, you would do the following: - open index.html file and add to main slider .item  (style="background-image:url(add your image url);") and add in breckets url address your pic
+		</p>
+		<br>
+			<img src="images/screen_shot4.jpg" alt="">
+			
+		<p>How add background image for video block?
+Open style.css and find .vide_block. Change background url on your image and delete comment attribute</p>	
+			<img src="images/screen_shot5.jpg" alt="">	
+			<img src="images/screen_shot6.jpg" alt="">
+			
+
+			<p>How change video link?<br>
+Find in index.html class (popup_video) and change (href) attribute on your video link</p>
+			<img src="images/screen_shot8.jpg" alt="">
+		<br><br><br><br><br><br><br>
+		<h2 id="csslist">CSS Files and Structure - <a href="#menulist" class="easyscroll" style="font-size:14px;">back to menu</a></h2>
+		<p>
+			I'm using two general CSS files in this theme:<br>
+			<ul>
+				<li>style.css</li>
+				<li>responsive.css</li>
+			</ul>
+			The first one is a general style of template and inlude a generic reset style. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.
+			<br><br>
+			Second is a file include all responsive css style for template.
+			
+			<br><br>
+			Style.css is a general file contains all of the specific stylings for the page. The file is separated into sections using:
+		</p>
+			<blockquote>	
+			<br><br>
+					/***************************************************/<br>
+					/********************MAIN_HEADER********************/<br>
+					/***************************************************/<br>
+					<br><br>
+					some css code<br>
+					<br><br>
+					/***************************************************/<br>
+					/********************TOP NAV************************/<br>
+					/***************************************************/<br>
+					<br><br>
+					some css code<br>
+					<br><br>
+					
+					/***************************************************/<br>
+					/********************MAIN_BIG_SLIDER****************/<br>
+					/***************************************************/<br>
+			
+			</blockquote>
+			<p>
+				If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
+			</p>
+			<blockquote>	.main_header {
+					background-color: #someColor;
+				} </blockquote>
+		
+		<br><br><br><br><br><br><br>
+		<h2 id="jsblock">JavaScript - <a href="#menulist" class="easyscroll" style="font-size:14px;">back to menu</a></h2>
+		<p>This theme imports three Javascript files.</p>
+		<ul>
+			<li>jQuery library</li>
+			<li>Some plugin</li>
+			<li>My custom scripts (custom.js)</li>
+		</ul>
+		<p>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</p>
+		<p>custom.js - is a file with general setting for this template.</p>
+		<p>Some js code in custom.js file:</p>
+		<code>
+				//main carousel<br><br>
+				$('.main_b_slider').owlCarousel({<br>
+					loop:true, // constant sliding slides<br>
+					margin:0, // distance between slides<br>
+					autoplay:false, //auto plau slides - true<br>
+					animateOut: 'fadeOut', //animation style<br>
+					autoplayTimeout:7000, //auto play Timeout<br>
+					smartSpeed:1100, //animation slide speed<br>
+					nav:true, //sho navifation<br>
+					dots:false, //hide pagination<br>
+					navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],<br>
+					
+				});
+				<br><br><br>
+				// popup image js setting<br><br>
+				$('.item.mix a').magnificPopup({<br>
+					type: 'image', //type html element<br>
+					fixedContentPos: false, //Popup content position<br>
+					fixedBgPos: true, //Same as an option above, but it defines position property of the dark transluscent overlay.<br>
+
+					overflowY: 'auto', //Defines scrollbar of the popup, works as overflow-y CSS property<br>
+
+					closeBtnInside: false, //If enabled, Magnific Popup will put close button inside content of popup.<br>
+					preloader: false, // off Preloader in Magnific Popup is used as an indicator of current status.<br>
+					
+					midClick: true, // If set to true lightbox is opened if the user clicked on the middle mouse button, or click with Command/Ctrl key. <br>
+
+					gallery: { // The gallery module<br>
+						enabled: true,<br>
+						navigateByImgClick: true, // gallery navigation list<br>
+						preload: [0,1] <br>
+					},<br>
+					
+				});
+		
+		</code>
+		<br><br><br><br><br><br><br>
+		<h2 id="block4">Fonts and Icons - <a href="#menulist" class="easyscroll" style="font-size:14px;">back to menu</a></h2>
+		
+		Google Web Fonts:
+		<br><br>
+		Open Sans – <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">https://fonts.google.com/specimen/Open+Sans</a><br>
+		Montserrat – <a href="https://fonts.google.com/specimen/Montserrat" target="_blank">https://fonts.google.com/specimen/Montserrat</a>
+		<br><br>
+		Icon Fonts:<br><br>
+		Font Awesome – <a href="https://fontawesome.com" target="_blank">https://fontawesome.com</a><br>
+		
+		<br><br><br><br><br><br><br>
+		<h2 id="block7">Sources and Credits - <a href="#menulist" class="easyscroll" style="font-size:14px;">back to menu</a></h2>
+		
+			<p>I've used the following css, javascript libraries:
+			<p>CSS:</p>
+			<ul>
+				<li><a href="https://getbootstrap.com">bootstrap</a></li>
+				<li><a href="http://dimsemenov.com/plugins/magnific-popup/">magnific-popup</a></li>
+				<li><a href="https://owlcarousel2.github.io/OwlCarousel2/">owl carousel</a></li>
+				<li><a href="https://fontawesome.com">fontawesome</a></li>
+			</ul>
+			<p>JS:</p>
+			<ul>
+				<li><a href="https://jquery.com">jQuery</a></li>
+				<li><a href="https://getbootstrap.com">bootstrap</a></li>
+				<li><a href="http://dimsemenov.com/plugins/magnific-popup/">magnific-popup</a></li>
+				<li><a href="https://vestride.github.io/Shuffle/">shuffle</a></li>
+				<li><a href="https://owlcarousel2.github.io/OwlCarousel2/">owl carousel</a></li>
+				
+			</ul>
+			
+		
+		<br>
+		Images:
+		<br><br>
+		allfreephotos.net – <a href="http://allfreephotos.net">http://allfreephotos.net</a>
+		<br><br>
+		Please note: all images used here are just for preview purpose only and they are not included in main download files. You easily can find all images on <a href="http://allfreephotos.net">http://allfreephotos.net</a>.
+		
+		
+		<br><br><br><br><br><br><br>
+		<h2 id="block8">Online Support</h2>
+		
+		<div class="clearfix">
+			<img src="images/screen_shot2.jpg" alt="" style="float:left;margin:0 30px 0 0;">
+			
+			If you have any questions about customization of this template witch are not covered in the documentation feel free to ask a question in the comment section or contact me directly via e-mail form or send message on <a href="https://themeforest.net/user/mx_reliable" target="_blank">my profile page.</a>
+			
+		</div>
+		
+		<br><br><br><br><br><br><br>
+		<h2></h2>
+		Copyright SVARGO 2018
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="scripts/script.js"></script>
+   </body>
+</html>

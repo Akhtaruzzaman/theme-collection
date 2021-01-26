@@ -1,0 +1,89 @@
+a, a:hover {
+    color: #fcb700;
+}
+.btn-common {
+	background-color:#fcb700;
+}
+.btn-common:hover {
+	background-color:#e1a70c;
+}
+#scrollUp {
+	background-color:#fcb700;
+}
+.social-icons.style-2 a:hover {
+    color: #e1a70c;
+}
+.office-info i {
+    color: #fcb700;
+}
+.office-info ul li span {
+    color: #767676;
+}
+.mainmenu-area.style-3 .mainmenu ul li a {
+	padding:14px 0;
+}
+.mainmenu nav ul li a:hover {
+	color:#ffffff;
+}
+.mainmenu-area.style-3 .mainmenu nav ul li .submenu li a {
+	padding: 8px 0 8px 30px;
+}
+.mainmenu nav ul li .submenu li a:hover {
+	color:#fcb700;
+}
+.cart-search ul li a span {
+    background-color: #1c2122;
+    color: #fff;
+}
+.mini-cart-heading span {
+	color:#fcb700;
+}
+.slider-caption h5 {
+	color:#fcb700;
+}
+.slick-slider .slick-arrow:hover {
+	background-color:#e1a70c;
+}
+.office-info.style-2::before {
+    background-color: rgba(79,166,92,.95);
+}
+.office-info.style-2 i {
+	color:#fcb700;
+}
+.service-single .btn-common {
+	color:#fcb700;
+}
+.service-single:hover .btn-common {
+	background-color:#fcb700;
+	color:#ffffff;
+}
+.slick-slider .slick-dots li.slick-active button {
+	border-color:#fcb700;
+}
+a.btn.btn-link[aria-expanded=true] { 
+    background-color: #fcb700;
+}
+.single-faq .card-body {
+    background-color: #fcb700;
+}
+.package-single h2 {
+    color: #fcb700;
+}
+.package-single h5 {
+	color: #fcb700;
+}
+.package-single.style-2:hover {
+	border-color:#fcb700;
+}
+.package-single .btn-common:hover {
+	background-color:#fcb700;
+}
+.contact-form {
+	background-color:#fcb700;
+}
+.contact-form h2 {
+	color:#343e51;
+}
+.quote-icon {
+	background-color:#fcb700;
+}

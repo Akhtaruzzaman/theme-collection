@@ -1,0 +1,58 @@
+a, a:hover {
+    color: #4fa65c;
+}
+.btn-common {
+	background-color:#4fa65c;
+}
+.btn-common:hover {
+	background-color:#3b8947;
+}
+#scrollUp {
+	background-color:#4fa65c;
+}
+.mainmenu nav ul li a:hover {
+	color:#3b8947;
+}
+.mainmenu nav ul li .submenu li a:hover {
+	color:#3b8947;
+}
+.cart-search ul li a span {
+	background-color:#4fa65c;
+}
+.mini-cart-heading span {
+	color:#4fa65c;
+}
+.slider-caption h5 {
+	color:#4fa65c;
+}
+.slick-slider .slick-arrow:hover {
+	background-color:#3b8947;
+}
+.office-info.style-2::before {
+    background-color: rgba(79,166,92,.95);
+}
+.office-info.style-2 i {
+	color:#4fa65c;
+}
+.service-single .btn-common {
+	color:#4fa65c;
+}
+.service-single:hover .btn-common {
+	background-color:#4fa65c;
+	color:#ffffff;
+}
+.slick-slider .slick-dots li.slick-active button {
+	border-color:#4fa65c;
+}
+a.btn.btn-link[aria-expanded=true] { 
+    background-color: #4fa65c;
+}
+.single-faq .card-body {
+    background-color: #4fa65c;
+}
+.booking-form input[type="radio"]:checked + label {
+	background-color:#4fa65c;
+}
+.contact-form {
+	background-color:#4fa65c;
+}

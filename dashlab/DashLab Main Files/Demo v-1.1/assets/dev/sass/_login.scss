@@ -1,0 +1,125 @@
+.login-bg {
+  background: $dark-color;
+  .container {
+    margin-top: 8%;
+  }
+}
+
+
+.login-form {
+  width: 35%;
+  float: left;
+  background: $white;
+  border-radius: 10px 0 0 10px;
+  padding: 3rem;
+  a.forgot-link{
+    color: $dark-color;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .form-control {
+    font-size: .8rem;
+    line-height: 2.2;
+  }
+
+}
+
+.login-promo {
+  width: 65%;
+  float: left;
+  border-radius: 10px;
+  min-height: 550px;
+}
+
+.registration-promo{
+  min-height: 600px;
+}
+
+
+
+.login-promo-content {
+  width: 100%;
+  padding: 5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.play-btn {
+  width: 55px;
+  height: 55px;
+  line-height: 45px;
+  border-radius: 50% !important;
+  text-align: center;
+  display: inline-block;
+  background: $white;
+  color: $purple-color-dark;
+  border: 5px solid rgba(255,255,255,.5);
+
+  i{
+    color: $purple-color-dark;
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+  }
+}
+
+.form-divider {
+  height: 0;
+  margin: 2.5rem 0;
+  border-top: 1px dashed $border-color;
+  clear: both;
+  position: relative;
+  &:before{
+    content: 'or';
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: -14px;
+    color: $gray;
+    background: $white;
+    padding: 0 5px;
+  }
+}
+
+.btn-facebook {
+  background: #4d65cd;
+  color: $white;
+  display: block;
+  position: relative;
+  font-weight: 500;
+  i{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    top: 10px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(255,255,255,.5);
+  }
+  &:hover{
+    background: #445ab6;
+    color: $white;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .login-form, .login-promo{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .login-form, .login-promo-content {
+    padding: 1.5rem;
+  }
+
+  .login-promo, .registration-promo {
+    min-height: 400px;
+  }
+
+}
